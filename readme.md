@@ -30,13 +30,13 @@ I enjoy applying novel techniques to help overcome technical limitations and ena
 ![alt text](images/ThesisResults.png)
 
 The plot of the left captures far more detail of the underlying distribution. A 1000 epoch run was made possible through a series of optimizations made during the project. 
-
+<!--
 #### Visualizing the training (set fixed hyperparamters for simplicity.)
 
 Plotting the at a particular place.
 
-<video controls src="images/NormalizingFlowsLikelihoodEstimation_1000_Epochs_BHBHm.mp4" title="Title"></video>
-
+<video src="https://github.com/jjackson1994/Thesis_Normalizing_Flows_for_Binary_Black_Holes/blob/main/images/NormalizingFlowsLikelihoodEstimation_1000_Epochs_BHBHm.mp4"></video>
+ … -->
 ## DATASET: 
 
 Data was from the [SEVN  Fiducial 5 million run](https://arxiv.org/abs/2211.11774). To run SEVN through Python see my [SEVN Python Wrapper Repo](https://github.com/jjackson1994/SEVN_PyWrapper).
