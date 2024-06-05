@@ -1,16 +1,15 @@
 # Thesis: Physics of Data
 ![alt text](images/ThesisBanner.jpeg)
-I enjoy applying novel techniques to help overcome technical limitations and enable new science. This is in essence the heart of my Master’s thesis. In which, the population synthesis code SEVN, can be emulated through the technique of Normalizing Flows. Normalizing Flows are a type of generative model that employs highly accurate and invertible distributions for sampling and density evaluation in an efficient manner. This was successfully applied to the SEVN generated binary black hole mergers and optimized in my thesis allowing for rapid sampling and hyperparameter likelihood estimation.  This project was a collaboration between the DEMOBLACK group, the University of Padova, and the University of Michigan.
+I enjoy applying novel techniques to help overcome technical limitations and enable new science. This is in essence the heart of my [Master’s thesis](Thesis_Jackson_Jake.pdf). In which, the population synthesis code SEVN, can be emulated through the technique of Normalizing Flows. Normalizing Flows are a type of generative model that employs highly accurate and invertible distributions for sampling and density evaluation in an efficient manner. This was successfully applied to the SEVN generated binary black hole mergers and optimized in my thesis allowing for rapid sampling and hyperparameter likelihood estimation.  This project was a collaboration between the DEMOBLACK group, the University of Padova, and the University of Michigan.  
 
 ## Why do this?
 ![alt text](images/Thesis.gif)
 
-* Normalizing Flows can  get a highly accurate estimation of the likelihood of a reduced parameter set. SEVN has 1000s of inputs making it very difficult to isolate the likelihood of the parameters of interest.
+* Normalizing Flows can  get a highly accurate estimation likelihood. SEVN has 1000s of inputs making it otherwise very difficult to isolate the likelihood of the parameters of interest.
 * Rapid generation of samples 
-* Simulations like SEVN use discrete grids of hyperparamters, here we can get a strong likelihood estimation for a continuous hyperparameters (see figure above).  
-* This is very useful for Hierarchical Bayesian  Analysis 
-* Rapid generation of samples
-
+* Simulations like SEVN use discrete hyperparameter grids, with NF we can get a accurate likelihood estimation interpolation for continuous hyperparameters values (see figure above).  
+* This is very useful for Hierarchical Bayesian Analysis.
+  
 ## Modifications & Opimizations
  
 * Pipeline to make the normalized flows compatible with SEVN BHBH merger data
@@ -40,7 +39,7 @@ Plotting the at a particular place.
 
 ## DATASET: 
 
-Data was from the [SEVN  Fiducial 5 million run](https://arxiv.org/abs/2211.11774), 
+Data was from the [SEVN  Fiducial 5 million run](https://arxiv.org/abs/2211.11774). To run SEVN through Python see my [SEVN Python Wrapper Repo](https://github.com/jjackson1994/SEVN_PyWrapper).
 ![alt text](images/SEVN_BHBHm_data.png)
 
 ### Methodology
